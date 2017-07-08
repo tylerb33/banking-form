@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Banking Form</title>
+</head>
+<body>
+	<head>
+		<h1>IMPORTANT BANKING FORM!</h1>
+	</head>
+	<form>
+		First Name: 
+		<input type="text" name="firstname"></br>
+		Middle Initial: 
+		<input type="text" name="middleinitial"></br>
+		Last Name: 
+		<input type="text" name="lastname"></br>
+		Address:
+		<input type="text" name="applicant-address"></br>
+		Occupation:
+		<input type="text" name="occupation"></br>
+		Employer: 
+		<input type="text" name="employer"></br>
+		Employer Address:
+		<input type="text" name="employer-address"></br>
+	</form>
+	<form>
+		Type of loan: </br>
+		<select name="loan-types">
+			<option value="commercial">Commercial</option>
+			<option value="real-estate">Real Estate</option>
+			<option value="personal">Personal</option>
+			<option value="mortgage">Mortgage</option>
+		</select>
+	</form>
+	<form>
+		Requested Amount: $
+		<input type="number" name="requested-amount">
+	</form>
+	<form>
+		Loan Life: <br>
+		<input type="radio" name="loanlife" value="5 Years"> 5 Years <br>
+		<input type="radio" name="loanlife" value="15 Years"> 15 Years <br>
+		<input type="radio" name="loanlife" value="30 Years"> 30 Years
+	</form>
+	<form>
+		Special Conditions: <br>
+		<input type="checkbox" name="spec-conditions" value="I have a down payment">I have a down payment <br>
+		<input type="checkbox" name="spec-conditions" value="Out-of-state resident">Out-of-state resident <br>
+		<input type="checkbox" name="spec-conditions" value="Married">Married <br>
+		<input type="checkbox" name="spec-conditions" value="Loan will be co-signed">Loan will be co-signed
+	</form>
+	<form>
+		Additional Comments: <br>
+		<textarea rows: "10" columns: "100"></textarea>
+	</form>
+	<form>
+		Email Address: <br>
+		<input type="email" name="applicant-email">
+	</form>
+	<form>
+		Phone Number: <br>
+		<input type="tel" name="applicant-phone">
+	</form>
+	<form>
+		Your LinkedIn Profile Link: <br>
+		<input type="url" name="LinkedIn">
+	</form>
+</body>
+</html>
+
+
+
+<!-- 
+A text area to allow for additional comments
+Applicant email address
+Applicant telephone number
+Applicant LinkedIn URL -->
